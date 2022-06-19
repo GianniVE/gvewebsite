@@ -3,8 +3,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import NavBar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropDown from 'react-bootstrap/NavDropdown'
+import { useNavigate } from 'react-router-dom'; // import useNavigate()
 
 function Navbar() {
+  const navigate = useNavigate(); // make const
+
   return (
     <>
       {console.log(window.location.href)}
@@ -19,11 +22,11 @@ function Navbar() {
           <Nav>
 
             {window.location.href.includes("/Home") ||window.location.href.includes("/") ? null :
-              <Nav.Link href="Home">Home</Nav.Link>
+              <Nav.Link onClick={()=> navigate('/Home')}>Home</Nav.Link>
             }
 
-            <Nav.Link href="About">About me</Nav.Link>
-            <Nav.Link href="Education">Education</Nav.Link>
+            <Nav.Link onClick={()=> navigate('/About')}>About me</Nav.Link>
+            <Nav.Link onClick={()=> navigate('/Contact')}>Contact</Nav.Link>
 
             <NavDropDown title="Projects">
               <NavDropDown.Item href="Proj1">Proj1</NavDropDown.Item>
