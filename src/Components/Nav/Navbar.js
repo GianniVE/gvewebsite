@@ -18,7 +18,7 @@ function Navbar() {
         <NavBar.Collapse className="justify-content-center ">
           <Nav>
 
-            {window.location.href.includes("/Home") ? null :
+            {window.location.href.includes("/Home") ||window.location.href.includes("/") ? null :
               <Nav.Link href="Home">Home</Nav.Link>
             }
 

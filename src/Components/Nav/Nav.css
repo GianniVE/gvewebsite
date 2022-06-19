@@ -1,0 +1,26 @@
+.brand{
+    width: 100%;
+    background-color: #303841;
+  }
+  
+  @media screen and (max-width: 400px) {
+    img {
+      width:309.5px;
+      height:93px;
+    }
+  }
+
+
+  @media screen and (max-width: 200px) {
+    img {
+      width:154.75px;
+      height:46.5px;
+    }  
+  }
+
+  @media screen and (min-width: 200px) {
+    img {
+      width:154.75px;
+      height:46.5px;
+    }  
+  }
