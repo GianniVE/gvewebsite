@@ -5,18 +5,17 @@ import NavBar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropDown from 'react-bootstrap/NavDropdown'
 
-
 function App() {
   return (
     <div className="App">
       <div className='brand'>
-      <img src={logo} alt='logo' width="619px" height="186px"/>
+        <img src={logo} alt='logo' width="619px" height="186px" />
       </div>
       <NavBar bg='dark' variant='dark'
         sticky='top' expand='sm' collapseOnSelect className='justify-content-center'>{/* bg kan verwijzing naar cssklasse zijn ook. kleur navbar. Sticky= vast aan bovenkant bij scroll? */}
         <NavBar.Toggle />
 
-        <NavBar.Collapse className="justify-content-center">
+        <NavBar.Collapse className="justify-content-center ">
           <Nav>
             <Nav.Link href="About">About me</Nav.Link>
             <Nav.Link href="Education">Education</Nav.Link>
