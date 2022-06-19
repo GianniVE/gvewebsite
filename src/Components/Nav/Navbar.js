@@ -29,9 +29,9 @@ function Navbar() {
             <Nav.Link onClick={()=> navigate('/Contact')}>Contact</Nav.Link>
 
             <NavDropDown title="Projects">
-              <NavDropDown.Item href="Proj1">Proj1</NavDropDown.Item>
-              <NavDropDown.Item href="Proj2">Proj2</NavDropDown.Item>
-              <NavDropDown.Item href="Proj3">Proj3</NavDropDown.Item>
+              <NavDropDown.Item onClick={()=> navigate('/ZZZ')}>Proj1</NavDropDown.Item>
+              <NavDropDown.Item onClick={()=> navigate('/ZZZ')}>Proj2</NavDropDown.Item>
+              <NavDropDown.Item onClick={()=> navigate('/ZZZ')}>Proj3</NavDropDown.Item>
             </NavDropDown>
 
           </Nav>
