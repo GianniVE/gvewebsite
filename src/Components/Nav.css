@@ -1,0 +1,34 @@
+.brand{
+    width: 100%;
+    background-color: #303841;
+  }
+  
+  @media screen and (min-width: 400px) {
+    img {
+      width:309.5px;
+      height:93px;
+    }
+  }
+  
+  @media screen and (min-width: 200px) {
+    .height-responsive-bar{
+      max-height: 46.5px;
+    }
+  
+    .height-responsive-collapse{
+      max-height: 20px;
+      
+    }
+  
+    .height-responsive-collapse span{
+      max-height: 20px;
+      
+    }
+  
+    img {
+      width:154.75px;
+      height:46.5px;
+    }
+  
+  
+  }
