@@ -10,11 +10,23 @@
     }
   }
 
+  @media screen and (max-width: 500px) {
+    img {
+      width:309.5px;
+      height:93px;
+    }
+  }
 
-  @media screen and (max-width: 200px) {
+  @media screen and (max-width: 600px) {
+    img {
+      width:309.5px;
+      height:93px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
     img {
       width:154.75px;
       height:46.5px;
     }  
   }
-
