@@ -21,17 +21,27 @@ function Navbar() {
         <NavBar.Collapse className="justify-content-center ">
           <Nav>
 
-            {window.location.href.includes("/Home") ||window.location.href.includes("/") ? null :
-              <Nav.Link onClick={()=> navigate('/Home')}>Home</Nav.Link>
+            {window.location.href === "https://www.gianniversees.be/#/Home" ||
+              window.location.href === "http://www.gianniversees.be/#/Home" ||
+
+              window.location.href === "https://www.gianniversees.be/" ||
+              window.location.href === "http://www.gianniversees.be/" ||
+
+              window.location.href === "http://localhost:3000/#/Home" ||
+              window.location.href === "http://localhost:3000/"
+              ? null :
+              <Nav.Link onClick={() => navigate('/Home')}>Home</Nav.Link>
             }
 
-            <Nav.Link onClick={()=> navigate('/About')}>About me</Nav.Link>
-            <Nav.Link onClick={()=> navigate('/Contact')}>Contact</Nav.Link>
+            <Nav.Link onClick={() => navigate('/About')}>About me</Nav.Link>
+            <Nav.Link onClick={() => navigate('/Contact')}>Contact</Nav.Link>
 
             <NavDropDown title="Projects">
-              <NavDropDown.Item onClick={()=> navigate('/ZZZ')}>Proj1</NavDropDown.Item>
-              <NavDropDown.Item onClick={()=> navigate('/ZZZ')}>Proj2</NavDropDown.Item>
-              <NavDropDown.Item onClick={()=> navigate('/ZZZ')}>Proj3</NavDropDown.Item>
+              <NavDropDown.Item onClick={() => navigate('/ZZZ')}>Overview</NavDropDown.Item>
+              <NavDropDown.Divider />
+              <NavDropDown.Item onClick={() => navigate('/ZZZ')}>Proj1</NavDropDown.Item>
+              <NavDropDown.Item onClick={() => navigate('/ZZZ')}>Proj2</NavDropDown.Item>
+              <NavDropDown.Item onClick={() => navigate('/ZZZ')}>Proj3</NavDropDown.Item>
             </NavDropDown>
 
           </Nav>
