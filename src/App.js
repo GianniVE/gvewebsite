@@ -31,7 +31,7 @@ function App() {
         </NavBar.Collapse>
       </NavBar>
       <div className='content'>
-        this is content 2.
+        this is content 3.
       </div>
     </div>
   );
