@@ -10,9 +10,8 @@ function Navbar() {
 
   return (
     <>
-      {console.log(window.location.href)}
       <div className='brand'>
-        <img src={process.env.PUBLIC_URL + '/gve.png'} alt='logo' width="619px" height="186px" />
+        <img src={process.env.PUBLIC_URL + '/gve.png'} alt='logo' width="619px" height="186px" onClick={() => navigate('/Home')}/>
       </div>
       <NavBar bg='dark' variant='dark'
         sticky='top' expand='sm' collapseOnSelect className='justify-content-center'>{/* bg kan verwijzing naar cssklasse zijn ook. kleur navbar. Sticky= vast aan bovenkant bij scroll? */}

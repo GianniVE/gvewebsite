@@ -35,7 +35,6 @@ function Contact() {
                 <Form.Control type="text" placeholder="Subject" name='subject'/>
             </Form.Group>
 
-
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Message</Form.Label>
                 <Form.Control  as="textarea" rows={3} name='message' type="text" placeholder="Your message" />
@@ -44,7 +43,10 @@ function Contact() {
             <Button variant="primary" type="submit">
                 Send
             </Button>
+
         </Form>
+
+        
     );
 }
 
