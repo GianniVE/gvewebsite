@@ -1,0 +1,10 @@
+.form {
+    width: 50%;
+    margin: auto;
+    margin-top: 2.5rem;
+    background-color: #a6abae;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #a6abae;
+    border-width: 20px;
+}
