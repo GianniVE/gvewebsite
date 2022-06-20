@@ -5,6 +5,7 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom'
+import Footer from './Components/Footer/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,12 @@ root.render(
   </React.StrictMode>
 );
 
+const footer = ReactDOM.createRoot(document.getElementById('footer'));
+footer.render(
+  <React.StrictMode>
+         <Footer />
+  </React.StrictMode>
+);
 
 
 // If you want to start measuring performance in your app, pass a function

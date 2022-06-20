@@ -5,7 +5,6 @@ import About from './Components/About/About'
 import Home from './Components/Home/Home'
 import Contact from './Components/Contact/Contact'
 import NotFound from './Components/NotFound/NotFound404'
-import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path="*" element={<NotFound />} />
           </Routes>
       </div>
-      <Footer/>
 
     </>
 
