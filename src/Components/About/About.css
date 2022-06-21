@@ -1,0 +1,47 @@
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    text-align: center;
+    width: 70%;
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: 600px) {
+    .cards { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+
+  @media (min-width: 200px) {
+    .image{
+        width:126px;
+        height:168px;
+    }
+  }
+  
+  @media (max-width: 200px) {
+    .image{
+        width:63px;
+        height:84px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .image{
+        width:252px;
+        height:336px;
+    }
+  }
+
+  .card{
+    background-color: white;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: white;
+    border-width: 20px;
+  }
+
+  

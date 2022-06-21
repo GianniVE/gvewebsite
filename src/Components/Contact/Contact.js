@@ -47,9 +47,11 @@ function Contact() {
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" rows={3} name='message' type="text" placeholder="Your message" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" className='btnsubm'>
                     Send
                 </Button>
+                <Form.Label className='alert-wait'>Wait until email is sended before leaving.</Form.Label>
+
 
             </Form>
             <ToastContainer />

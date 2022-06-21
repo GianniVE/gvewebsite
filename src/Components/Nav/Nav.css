@@ -1,6 +1,7 @@
 .brand{
     width: 100%;
     background-color: #303841;
+    text-align: center;
   }
   
   @media screen and (max-width: 400px) {
@@ -28,5 +29,19 @@
     img {
       width:154.75px;
       height:46.5px;
+    }  
+  }
+
+  @media screen and (max-width: 150px) {
+    img {
+      width:77.375px;
+      height:23.25px;
+    }  
+  }
+
+  @media screen and (max-width: 85px) {
+    img {
+      width:38.6875px;
+      height:11.625px;
     }  
   }

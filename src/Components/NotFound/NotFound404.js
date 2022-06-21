@@ -1,8 +1,9 @@
 import React from 'react';
+import './NotFound.css'
 
 function NotFound404() {
     return (
-        <div>
+        <div  className='center'>
             NOT FOUND
         </div>
     );

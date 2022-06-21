@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
     return (
     <>
-            <div className='content'>
+        <div className='Content'>
         this is content 4.
         </div>
     </>
