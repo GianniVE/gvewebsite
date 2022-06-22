@@ -51,10 +51,9 @@ function Contact() {
                     Send
                 </Button>
                 <Form.Label className='alert-wait'>Wait until email is sended before leaving.</Form.Label>
-
-
             </Form>
             <ToastContainer />
+
         </div>
     );
 }

@@ -12,14 +12,8 @@ root.render(
   <React.StrictMode>
       <HashRouter>
          <App />
-      </HashRouter>
-  </React.StrictMode>
-);
-
-const footer = ReactDOM.createRoot(document.getElementById('footer'));
-footer.render(
-  <React.StrictMode>
          <Footer />
+      </HashRouter>
   </React.StrictMode>
 );
 

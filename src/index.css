@@ -1,9 +1,16 @@
 body {
-  margin: 0;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+html{
+  margin:0;
+	padding:0;
+	height:100%;
 }
 
 
@@ -14,4 +21,6 @@ code {
 
 #root {
   background-color: #C5CACE;
+	min-height:100%;
+	position:relative;
 }
