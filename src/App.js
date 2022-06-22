@@ -6,7 +6,6 @@ import Home from './Components/Home/Home'
 import Contact from './Components/Contact/Contact'
 import Services from './Components/Services/Services'
 import NotFound from './Components/NotFound/NotFound404'
-import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
