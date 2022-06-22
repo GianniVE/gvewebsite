@@ -1,4 +1,24 @@
-.Content {
-  text-align: center;
+.description {
+  padding-left: 10%;
+  padding-top: 5%;
 }
 
+.description h1 {
+  color: rgb(131, 130, 130);
+}
+.description h2 {
+  color: rgb(131, 130, 130);
+}
+
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #303841;
+  background: #303841;
+  color: #fff;
+}

@@ -1,23 +1,17 @@
 .cards {
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    gap: 0.5rem;
-    text-align: center;
+
     width: 70%;
     margin-top: 2.5rem;
-}
 
-@media (min-width: 900px) {
-    .cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (min-width: 200px) {
     .image {
         width: 126px;
         height: 168px;
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -44,13 +38,7 @@
     color: black;
 }
 
-.parent {
-    position: relative;
 
-}
-
-.cv {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
+.cards_img{
+    text-align: center;   
 }

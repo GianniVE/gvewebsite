@@ -9,15 +9,11 @@ function Navbar() {
   const navigate = useNavigate(); // make const
 
   return (
-    <>
-      <div className='brand'>
-        <img src={process.env.PUBLIC_URL + '/gve.png'} alt='logo' width="619px" height="186px" onClick={() => navigate('/Home')}/>
-      </div>
-      <NavBar bg='dark' variant='dark' 
-        sticky='top' expand='sm' collapseOnSelect className='justify-content-center'>{/* bg kan verwijzing naar cssklasse zijn ook. kleur navbar. Sticky= vast aan bovenkant bij scroll? */}
-        <NavBar.Toggle />
-
-        <NavBar.Collapse className="justify-content-center ">
+      <NavBar collapseOnSelect expand="lg" className='bg' variant="dark">
+        <Nav.Link onClick={() => navigate('/Home')}><img src={process.env.PUBLIC_URL + '/gve.png'} alt="logo" className='logo'/></Nav.Link>
+        <NavBar.Toggle aria-controls="navbarScroll" />
+        <NavBar.Collapse className="justify-content-end spacing">
+          
           <Nav>
 
             {window.location.href === "https://www.gianniversees.be/#/Home" ||
@@ -47,7 +43,6 @@ function Navbar() {
           </Nav>
         </NavBar.Collapse>
       </NavBar>
-    </>
   );
 }
 

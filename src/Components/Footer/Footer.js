@@ -11,7 +11,7 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 function Footer() {
   return (
     <div className='footer'>
-            <MDBFooter className='bg-dark text-center text-white sticky-bottom'>
+      <MDBFooter className='bg_custom text-center text-white sticky-bottom'>
         <MDBContainer className='p-4 pb-0'>
           <section className='mb-4'>
             <a className='btn btn-outline-light btn-floating m-1' target='blank' href='https://www.facebook.com/gianni.versees.9/' role='button'>
