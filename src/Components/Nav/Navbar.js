@@ -33,6 +33,7 @@ function Navbar() {
             }
 
             <Nav.Link onClick={() => navigate('/About')}>About me</Nav.Link>
+            <Nav.Link onClick={() => navigate('/Services')}>Services</Nav.Link>
             <Nav.Link onClick={() => navigate('/Contact')}>Contact</Nav.Link>
 
             <NavDropDown title="Projects">
